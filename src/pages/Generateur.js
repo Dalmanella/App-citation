@@ -62,7 +62,7 @@ const Generateur = () => {
 
                 {/* image par défaut */}
                 {/* <img src={citationJour.img} alt="Shadocks pompant" /> */}
-                {citationJour.img? <img src={citationJour.img} /> : <img src={Shadok1} /> }
+                {citationJour.img? <img src={citationJour.img} /> : <img src={Shadok1} alt="Shadok réflechissant"/> }
 
                 {/* affichage de la citation et de son auteur */}
                 <div className="Pain-au-chocolat">
