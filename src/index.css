@@ -58,10 +58,18 @@ border-radius: 10px;
 
 .hamza{
   font-size:2.5rem;
-  margin:1vw auto;
+  margin: auto;
+}
+
+.hamza img{
+  width:60%;
 }
 .hamza h1{
-  margin: 1vw auto;
+  margin: auto;
+  font-size:3rem;
+  padding:0;
+  align-self:center;
+  width:80%;
 }
 
 .Pain-au-chocolat{
@@ -183,6 +191,7 @@ border-radius: 50px;
   position: fixed;
   top: 0;
   background: orange;
+  color:rgb(9, 71, 18);
   border-radius: 10px;
   left: 0;
   bottom: 0;
@@ -196,19 +205,21 @@ border-radius: 50px;
 
 .menuNav.showMenu {
   width: 100%;
-  font-size:2rem;
-  
+  font-size:5vw;
+  padding: 2vw;
 }
 
 a {
   display: block;
+  margin-left:0.8vw;
   padding: 10px 40px;
   text-decoration: none;
-  color: #b49940;
+  font-weight:bold;
+  color:rgb(9, 71, 18);
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .menuNav li:first-child {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
