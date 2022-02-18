@@ -1,13 +1,205 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display:flex;
+  background-color: rgb(44, 102, 52);
+  font-family: 'Nanum Brush Script', cursive;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  width:100%;
+}
+.conteneur{
+  display:flex;
+  flex-direction: column;
+  margin:0 auto;
+  color: orange;
+  text-align: center;
+  justify-content: center;
+  width:80%;
+  
+}
+
+input{
+  height:30px;
+  width:25%;
+}
+
+.citation-box{
+  text-align:center;  
+  font-size: 1.5rem;
+  border:1px solid rgb(9, 71, 18);
+  background-color: antiquewhite;
+  margin:3vw auto;
+  border-radius: 10px;
+  max-height: 70%;
+}
+.citation-box img{
+  width:100%;
+  border-radius: 10px;
+  
+  
+}
+.cit{
+padding:0 3vw;
+margin-bottom: 0;
+font-size: 2rem;
+}
+
+.aut{
+  padding:0 3vW;
+  margin-top:0;
+  font-size: 2rem;
+  font-weight:bolder;
+  color: rgb(9, 71, 18);
+}
+
+.hamza{
+  font-size:2.5rem;
+  margin:1vw auto;
+}
+.hamza h1{
+  margin: 1vw auto;
+}
+
+.Pain-au-chocolat{
+  padding: 0;
+  margin: 0;
+}
+
+/* Page Dico */
+
+.dico{
+  width:80%;
+  margin:0 auto;
+  text-align: center;
+  justify-content: center;
+  color: orange;
+  font-size: 2rem;
+
+}
+.citation{
+  list-style: none;
+background-color: antiquewhite;
+padding:3px;
+}
+
+.citation input{
+  margin:0 5px;
+}
+
+.form-container input{
+  margin:0 5px;
+}
+
+ul{
+  padding:0;
+}
+hr {
+  color:transparent;
+  /* width:50%; */
+  border-bottom: orange dotted 4px;
+  margin:3vw 5vw;
+}
+
+.citation-txt{
+  background-color: antiquewhite;
+  color:rgb(9, 71, 18);
+  padding:2vw;
+  margin-bottom: 1vw;
+}
+
+.citation-auteur{
+  align-self:end;
+  margin-bottom: 1vw;
+  margin-top:1;
+
+}
+
+.citation-btn{
+  margin:2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-modif, .btn-suppr{
+padding:2px 2px 0px 2px;
+border:1px solid rgb(9, 71, 18);
+box-shadow: 2px;
+font-size: 2.6rem;
+}
+
+.btn-valid{
+  height:35px;
+  width: 35px;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+/* page à propos */
+.apropos{
+  text-align: center;
+  width: 80%;
+  font-size:3rem;
+  margin: 60px auto;
+}
+
+/* Generateur */
+.renouveler{
+  font-size:3rem;
+  background-color: orange;
+  color: rgb(9, 71, 18);
+  border-radius: 5px;
+  margin:auto 0;
+}
+
+/* sidebar Nav */
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: orange;
+  border-radius: 10px;
+  left: 0;
+  bottom: 0;
+  height: fit-content;
+  width: 0;
+  overflow: hidden;
+  max-width: 40vw;
+  margin: 0 auto;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+  font-size:2rem;
+  
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #b49940;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
 }
