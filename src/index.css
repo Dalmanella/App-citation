@@ -37,7 +37,7 @@ input{
   background-color: transparent;
   border-radius: 10px;
   max-height: 50%;
-  
+  max-width:95%;
 }
 .cit{
 padding:0 3vw;
