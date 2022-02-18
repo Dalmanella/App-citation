@@ -33,21 +33,20 @@ const Generateur = () => {
 
     //Pioche Aléatoire d'une citation
 
-const genererCitation = () =>{
-    let pioche= (Math.round((Math.random()*compilation.length)-0.5));  
-    console.log(pioche);
-    return (compilation[pioche]);
-  }
-     console.log(genererCitation());
-  
-    const citationJour = genererCitation ();
+    const genererCitation = () =>{
+        let pioche= (Math.round((Math.random()*compilation.length)-0.5));  
+        console.log(pioche);
+        return (compilation[pioche]);
+    }
+        console.log(genererCitation());
+    
+        const citationJour = genererCitation ();
 
 
-//refresh citation
-function refreshPage() {
-    window.location.reload();
-}
-
+    //refresh citation
+    function refreshPage() {
+        window.location.reload();
+    }
 
     return (
       
@@ -62,8 +61,9 @@ function refreshPage() {
             <div className="citation-box">
 
                 {/* image par défaut */}
-                <img src={citationJour.img} alt="Shadocks pompant" />
-                
+                {/* <img src={citationJour.img} alt="Shadocks pompant" /> */}
+                {citationJour.img? <img src={citationJour.img} /> : <img src={Shadok1} /> }
+
                 {/* affichage de la citation et de son auteur */}
                 <div className="Pain-au-chocolat">
                     <p className="cit">{citationJour.texte}</p>
@@ -73,7 +73,7 @@ function refreshPage() {
             </div>
 
             <div className="btn-generateur">
-                {/* <button onClick={NouvelleCit}>Nouvelle citation</button> */}
+               
                 <button className="renouveler" onClick={refreshPage}><GrRefresh /></button>
             </div> 
         </div>
