@@ -29,30 +29,31 @@ input{
 .citation-box{
   text-align:center;  
   font-size: 1.5rem;
-  border:1px solid rgb(9, 71, 18);
-  background-color: antiquewhite;
   margin:3vw auto;
   border-radius: 10px;
-  max-height: 70%;
+  
 }
 .citation-box img{
-  width:100%;
+  background-color: transparent;
   border-radius: 10px;
-  
+  max-height: 50%;
   
 }
 .cit{
 padding:0 3vw;
 margin-bottom: 0;
-font-size: 2rem;
+font-size: 3rem;
+color: rgb(9, 71, 18);
+background-color: antiquewhite;
+border-radius: 10px;
 }
 
 .aut{
   padding:0 3vW;
   margin-top:0;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight:bolder;
-  color: rgb(9, 71, 18);
+  
 }
 
 .hamza{
