@@ -6,6 +6,7 @@ import Apropos from './pages/Apropos.js'
 import Dico from './pages/Dico.js'
 import Generateur from './pages/Generateur.js'
 import Navbar from './composants/Navbar.js'
+import NotMatch from './pages/NotMatch';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -20,7 +21,7 @@ ReactDOM.render(
         <Route path="/" element={<Generateur />}/>
         <Route path="/dico" element={<Dico />}/>
         <Route path="/apropos" element={<Apropos />}/>
-        
+        <Route path="*" element={<NotMatch />}/>
 
         
 
