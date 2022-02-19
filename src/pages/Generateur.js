@@ -45,7 +45,7 @@ const Generateur = () => {
 
     //refresh citation
     function refreshPage() {
-        window.location.reload();
+        window.location.reload(false);
     }
 
     return (
