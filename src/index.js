@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter App-citation={process.env.PUBLIC_URL}>
+    <BrowserRouter app-citation={process.env.PUBLIC_URL}>
       <Navbar/>
 
       <Routes>

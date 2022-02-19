@@ -12,15 +12,16 @@ const links = [
     text: "GENERATEUR",
   },
   {
-    id: 3,
-    path: "/apropos",
-    text: "A PROPOS",
-  },
-  {
     id: 2,
     path: "/dico",
     text: "DICO",
   },
+  {
+    id: 3,
+    path: "/apropos",
+    text: "A PROPOS",
+  },
+  
 ]
 
 const Navbar = () => {
