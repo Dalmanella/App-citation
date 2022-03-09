@@ -8,7 +8,7 @@ import { MdClose } from "react-icons/md"
 const links = [
   {
     id: 1,
-    path: "/",
+    path: "*",
     text: "GENERATEUR",
   },
   {
