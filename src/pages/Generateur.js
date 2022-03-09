@@ -21,7 +21,7 @@ const Generateur = () => {
 
     const [compilation, setcompilationn] = useState(recupererCompilation());
     
-    // recuperation de le tableau compilé
+    // recuperation du tableau compilé
    
     function recupererCompilation() {
         // getting stored items

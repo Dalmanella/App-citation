@@ -155,11 +155,6 @@ console.log(compilation);
     localStorage.setItem("Compilation", temp)
   }, [compilation])
 
-  
-
-
-
-
 //Fonctions modif citation
   const majTexte = (nvTexte, id)=>
   setCitation(
