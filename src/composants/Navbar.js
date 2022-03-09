@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
-import Recherche from "Recherche.js"
 import {FaBars} from "react-icons/fa"
 import { MdClose } from "react-icons/md"
 
