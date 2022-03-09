@@ -17,10 +17,10 @@ ReactDOM.render(
 
       <Routes>
         
-        <Route path="*" element={<Generateur />}/>
+        <Route path="/*" element={<Generateur />}/>
         <Route path="/dico" element={<Dico />}/>
         <Route path="/apropos" element={<Apropos />}/>
-        <Route path="/" element={<NotMatch />}/>
+        <Route path="*" element={<NotMatch />}/>
       
       </Routes>
     </BrowserRouter>
