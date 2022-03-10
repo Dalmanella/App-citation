@@ -43,11 +43,11 @@ const Generateur = () => {
         const citationJour = genererCitation ();
 
 
-    // //refresh citation
-    // function refreshPage() {
-    //     window.location.reload();
+    //refresh citation
+    function refreshPage() {
+        window.location.reload();
        
-    // }
+    }
 
     return (
       
@@ -74,8 +74,8 @@ const Generateur = () => {
             </div>
 
             <div className="btn-generateur">
-                <button className="renouveler" onClick={genererCitation}><GrRefresh /></button>
-                {/* <button className="renouveler" onClick={refreshPage}><GrRefresh /></button> */}
+                {/* <button className="renouveler" onClick={genererCitation}><GrRefresh /></button> */}
+                <button className="renouveler" onClick={refreshPage}><GrRefresh /></button>
             </div> 
         </div>
       
