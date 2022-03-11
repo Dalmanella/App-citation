@@ -67,7 +67,7 @@ const Generateur = () => {
                 {/* affichage de la citation et de son auteur */}
                 <div className="Pain-au-chocolat">
                     <p className="cit">{citationJour.texte}</p>
-                    <br/> 
+                    
                     <p className="aut">{citationJour.auteur} </p>
                 </div>
             </div>
