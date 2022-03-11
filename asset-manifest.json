@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-citation/static/css/main.afa28d0b.css",
-    "main.js": "/app-citation/static/js/main.ea373bfa.js",
+    "main.js": "/app-citation/static/js/main.6a415195.js",
     "static/media/Shadok-5.png": "/app-citation/static/media/Shadok-5.6a4942a63cbdce64bff1.png",
     "static/media/Shadok-9.png": "/app-citation/static/media/Shadok-9.8970855cc15494b28b85.png",
     "static/media/Shadok-8.png": "/app-citation/static/media/Shadok-8.57490d3a84b5b4e078c9.png",
@@ -18,10 +18,10 @@
     "static/media/les-devises.png": "/app-citation/static/media/les-devises.6de8c3a863df6c779d74.png",
     "index.html": "/app-citation/index.html",
     "main.afa28d0b.css.map": "/app-citation/static/css/main.afa28d0b.css.map",
-    "main.ea373bfa.js.map": "/app-citation/static/js/main.ea373bfa.js.map"
+    "main.6a415195.js.map": "/app-citation/static/js/main.6a415195.js.map"
   },
   "entrypoints": [
     "static/css/main.afa28d0b.css",
-    "static/js/main.ea373bfa.js"
+    "static/js/main.6a415195.js"
   ]
 }
