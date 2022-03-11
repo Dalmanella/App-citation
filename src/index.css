@@ -112,12 +112,15 @@ border-radius: 10px;
   justify-content: center;
   color: orange;
   font-size: 2rem;
-
 }
+.Muriel{
+  font-family: 'Nanum Brush Script', cursive;
+}
+
 .citation{
   list-style: none;
-background-color: antiquewhite;
-padding:3px;
+  background-color: antiquewhite;
+  padding:3px;
 }
 
 .citation input{
@@ -182,7 +185,7 @@ border-radius: 50px;
 .apropos, .nomatch{
   text-align: center;
   width: 80%;
-  font-size:3rem;
+  font-size:2rem;
   margin: 60px auto;
 }
 
@@ -231,10 +234,10 @@ a {
   margin-left:0.8vw;
   padding: 10px 40px;
   text-decoration: none;
+  font-family: 'Nanum Brush Script', cursive;
   font-weight:bold;
   color:rgb(9, 71, 18);
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .menuNav li:first-child {

@@ -7,13 +7,16 @@ const Apropos =() =>{
     return(
         <div className="apropos">
             <p>
-                C'est là qu'on met ce qu'on veut au sujet de l'appli, que c'est une appli Feel Good!
-                imaginée et développée par:<br/>
-                Hamza <br/>
-                Alex <br/>
-                Muriel<br/>
-                Lorris!
+                C'est une appli Feel Good!<br/> Imaginée et développée par:<br/>
+                Hamza, Alex, Muriel et Lorris!
             </p>
+            <ul>
+                <li>L'appli contient un ensemble de citations Shadoks.</li>
+                <li>La page Dico vous permet de visualiser l'ensemble des citations enregistrées dans votre dictionnaire.</li>
+                <li>Vous pouvez ajoutez vos propres citations, atention un auteur et une citation vous seront demandés, l'ajout d'une image est facultatif. </li>
+                <li>Vous pouvez modifier ou supprimer une citation que vous avez ajoutée.</li>
+            </ul>
+            <p>En revanche les shadoks resteront éternellement avec vous car les Shadoks pompaient, pompaient, pompaient...</p>
         </div>
     )
 }
