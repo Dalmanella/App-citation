@@ -8,7 +8,7 @@ import Navbar from './composants/Navbar.js';
 import NotMatch from './pages/NotMatch';
 import Generateur from './pages/Generateur.js';
 
-import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
