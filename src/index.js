@@ -17,8 +17,8 @@ ReactDOM.render(
 
       <Routes>
         
-        <Route path="/*" element={<Generateur />}/>
-        <Route path="/dico" element={<Dico />}/>
+        <Route path="/generateur" element={<Generateur />}/>
+        <Route path="/*" element={<Dico />}/>
         <Route path="/apropos" element={<Apropos />}/>
         <Route path="*" element={<NotMatch />}/>
       

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import titre from "../images/les-devises.png"
 import { GrRefresh} from "react-icons/gr";
-
+import ReactDOM from 'react-dom';
 import Shadok1 from "../images/Shadok-1.png";
 import Shadok2 from "../images/Shadok-2.png";
 import Shadok3 from "../images/Shadok-3.png";
@@ -40,13 +40,12 @@ const Generateur = () => {
     }
         console.log(genererCitation());
     
-        const citationJour = genererCitation ();
+    const citationJour = genererCitation ();
 
 
     //refresh citation
     function refreshPage() {
         window.location.reload();
-       
     }
 
     return (
