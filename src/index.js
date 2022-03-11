@@ -8,11 +8,11 @@ import Navbar from './composants/Navbar.js';
 import NotMatch from './pages/NotMatch';
 import Generateur from './pages/Generateur.js';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter app-citation={process.env.PUBLIC_URL}>
+    <HashRouter app-citation={process.env.PUBLIC_URL}>
       <Navbar/>
 
       <Routes>
@@ -23,7 +23,7 @@ ReactDOM.render(
         <Route path="*" element={<NotMatch />}/>
       
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
