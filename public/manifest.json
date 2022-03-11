@@ -18,7 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  // "start_url": ".",
+  "start_url":"https://dalmanella.github.io/app-citation",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
