@@ -60,7 +60,7 @@ const Dico = () => {
         },
         {
             img: Shadok7,
-            texte: "On est jamais si bien battu que par soit-même.",
+            texte: "On est jamais si bien battu que par soi-même.",
             auteur: "Shadok - Rouxel",
             id: uuidv4(),
         },
